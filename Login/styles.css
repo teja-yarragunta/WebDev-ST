@@ -1,0 +1,117 @@
+body {
+  background-color: #000;
+  color: #e7e9ea;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 364px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 42px;
+  font-weight: bold;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 31px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 9999px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 12px;
+  border: 1px solid transparent;
+}
+
+.social-button {
+  background-color: #fff;
+  color: #0f1419;
+}
+
+.divider {
+  color: #71767b;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+  background-color: #000;
+  border: 1px solid #333639;
+  border-radius: 4px;
+  padding: 18px 12px;
+  color: #e7e9ea;
+  font-size: 17px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.input-field::placeholder {
+  color: #71767b;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #1d9bf0;
+}
+
+.primary-button {
+  background-color: #eff3f4;
+  color: #0f1419;
+  border: none;
+}
+
+.primary-button:hover {
+  background-color: #d7dbdc;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: #eff3f4;
+  border: 1px solid #536471;
+}
+
+.secondary-button:hover {
+  background-color: rgba(239, 243, 244, 0.1);
+}
+
+.signup-link {
+  margin-top: 40px;
+  font-size: 15px;
+  color: #71767b;
+}
+
+.signup-link a {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
